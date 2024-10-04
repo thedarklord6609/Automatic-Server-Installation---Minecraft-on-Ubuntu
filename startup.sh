@@ -5,7 +5,6 @@
 username="$1"
 
 # Updates packages, creates the docker group and puts the user into it
-# Note: run "newgrp docker" to sync group permissions to user without having to log out and back in
 
 apt update -y
 addgroup docker
@@ -22,3 +21,4 @@ wget "https://raw.githubusercontent.com/itzg/docker-minecraft-server/refs/heads/
 
 docker compose up -d
 
+echo "run "newgrp docker" to sync group permissions to user"
