@@ -20,5 +20,6 @@ wget "https://raw.githubusercontent.com/itzg/docker-minecraft-server/refs/heads/
 # Launches the server
 
 docker compose up -d
+docker ps
 
 echo "run "newgrp docker" to sync group permissions to user"
