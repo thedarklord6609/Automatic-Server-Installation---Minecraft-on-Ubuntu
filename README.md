@@ -1,4 +1,5 @@
 CURRENTLY WORK IN PROGRESS
+startup.sh successfully deploys a vanilla minecraft server
 
 10/4/2024
 Prereqs: Docker, Linux
